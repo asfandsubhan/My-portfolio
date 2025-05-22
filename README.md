@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
+  <title>ASFAND SUBHAN | Portfolio</title>
   <style>
     * {
       margin: 0;
@@ -43,7 +44,7 @@
 
     .banner {
       background: url('https://via.placeholder.com/1500x400') no-repeat center/cover;
-      color: blue;
+      color: white;
       padding: 120px 20px;
     }
 
@@ -138,14 +139,14 @@
   </header>
 
   <section id="home" class="banner">
-    <h1>Hello, I'm [ASFAND SUBHAN]</h1>
+    <h1>Hello, I'm ASFAND SUBHAN</h1>
     <p>Welcome to my personal portfolio website</p>
   </section>
 
   <section id="about" class="about">
     <h2>About Me</h2>
-    <img src="my photo.jpg" alt="Profile Photo">
-    <p>Hi, I'm [ASFAND SUBHAN], a passionate developer who loves creating web applications and digital experiences. I specialize in HTML, CSS, JavaScript, and building clean, responsive, modern websites.</p>
+    <img src="images/profile.jpg" alt="ASFAND SUBHAN">
+    <p>Hi, I'm ASFAND SUBHAN, a passionate developer who loves creating web applications and digital experiences. I specialize in HTML, CSS, JavaScript, and building clean, responsive, modern websites.</p>
   </section>
 
   <section id="projects">
@@ -174,30 +175,23 @@
 
   <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <form onsubmit="submitForm(event)">
+    <form action="https://formsubmit.co/asfandsubhan515@gmail.com" method="POST">
       <label>Name</label>
-      <input type="ASFAND SUBHAN" required>
+      <input type="text" name="name" required>
 
       <label>Email</label>
-      <input type="asfandsubhan515@gmail.com" required>
+      <input type="email" name="email" required>
 
       <label>Message</label>
-      <textarea rows="5" required></textarea>
+      <textarea name="message" rows="5" required></textarea>
 
       <button type="submit">Send</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 [ASFAND SUBHAN]. All rights reserved.</p>
+    <p>&copy; 2025 ASFAND SUBHAN. All rights reserved.</p>
   </footer>
 
-  <script>
-    function submitForm(e) {
-      e.preventDefault();
-      alert("Thank you for reaching out!");
-    }
-  </script>
-
 </body>
-  </html>
+</html>
