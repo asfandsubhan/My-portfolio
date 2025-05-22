@@ -144,7 +144,7 @@
 
   <section id="about" class="about">
     <h2>About Me</h2>
-    <img src="https://via.placeholder.com/150" alt="Profile Photo">
+    <img src="my photo.jpg" alt="Profile Photo">you 
     <p>Hi, I'm [ASFAND SUBHAN], a passionate developer who loves creating web applications and digital experiences. I specialize in HTML, CSS, JavaScript, and building clean, responsive, modern websites.</p>
   </section>
 
